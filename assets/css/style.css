@@ -1,0 +1,35 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1024px;
+    align-content: center;
+    margin-bottom: 5px;
+}
+
+#banner {
+    width: 1024px;
+    height: 300px;
+    align-self: center;
+    padding-top: 35px;
+}
+
+h4 {
+    color: purple;
+    text-align: center;
+}
+
+img {
+    width: 110px;
+    height: 110px;
+}
+
+#secondR {
+    margin-top: -150px;
+}
+
+.card-footer {
+    color: rgb(82, 0, 75);
+    font-weight: 450;
+}

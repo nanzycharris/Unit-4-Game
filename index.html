@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Collector Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <img id="banner" src="assets/images/bannercrystal.jpg" class="crystalcollect" alt="crystalcollector">
+        <div class="card">
+            <div class="card-header">
+                <h4>Instructions</h4>
+            </div>
+            <div class="card-body">
+                <h7 class="card-title">You are given a random number at the start of the game.
+                    There are four crystals below. By clicking on a crystal, you add a specific amount of
+                    points to your total score. <br>
+                    The value of each crystal is assigned randomly and you can figure them out once you click on
+                    each gem. Each time the game starts, the value of the crystals changes. <br>
+                    You win the game by matching your total score to the target score; you lose the game if your
+                    total score exceeds the target score.
+                    <br></h7>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Target Score</h4>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5>60</h5>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Your Score</h4>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5>60</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Crystal Selection</h4>
+                    </div>
+                    <div class="card-body text-center">
+                        <img id="gems" src="assets/images/GemRed.jpg" alt="RedGem">
+                        <img id="gems" src="assets/images/GemWhite.jpg" alt="WhiteGem">
+                        <img id="gems" src="assets/images/GemYellow.jpg" alt="YellowGem">
+                        <img id="gems" src="assets/images/GemPurple.jpg" alt="PurpleGem">
+                        <img id="gems" src="assets/images/GemBlue.jpg" alt="BlueGem">
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        <div class="row" id="secondR">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Win Count</h4>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5>60</h5>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Loss Count</h4>
+                    </div>
+                    <div class="card-body text-center">
+                        <h5>60</h5>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        <br>
+        <br>
+        <div class="card text-center">
+            <div class="card-footer">
+                © Nancy C. Harris 2019
+            </div>
+        </div>
+    </div>
+    <script src="assets/javascript/logic.js"></script>
+
+</body>
+
+</html>

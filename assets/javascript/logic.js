@@ -81,7 +81,7 @@ var addValues = function (crystal) {
 var checkWin = function () {
     // Check if currentScore is larger than targetScore
     if (currentScore > targetScore) {
-        //setTimeout(function () {
+        // setTimeout(function () {
         alert("Sorry. You Lost");
         //}, 1000);
         console.log("You lost");

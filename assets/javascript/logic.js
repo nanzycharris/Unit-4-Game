@@ -81,16 +81,16 @@ var addValues = function (crystal) {
 var checkWin = function () {
     // Check if currentScore is larger than targetScore
     if (currentScore > targetScore) {
-        // setTimeout(function () {
-        alert("Sorry. You Lost");
-        //}, 1000);
         console.log("You lost");
         // Add to loss counter
         lossCount++;
         // Change HTML to reflect changes
         $("#lossCount").html(lossCount);
         // Restart the game
-        startGame();
+        setTimeout(function () {
+            alert("Sorry. You Lost");
+            startGame();
+        }, 00);
     }
     else if (currentScore == targetScore) {
         alert("Congratulations! You Won!");
@@ -100,7 +100,10 @@ var checkWin = function () {
         // Change HTML to reflect changes
         $("#winCount").html(winCount);
         // Restart the game
-        startGame();
+        setTimeout(function () {
+            alert("Sorry. You Lost");
+            startGame();
+        }, 00);
     }
 }
 

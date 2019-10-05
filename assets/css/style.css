@@ -10,7 +10,6 @@ body {
 .container {
     width: 1024px;
     align-content: center;
-    margin-bottom: 5px;
 }
 
 #banner {
@@ -39,10 +38,11 @@ img {
 }
 
 #secondR {
-    margin-top: -200px;
+    margin-top: -230px;
+    margin-bottom: 15px;
 }
 
 .card-footer {
     color: rgb(82, 0, 75);
-    font-weight: 450;
+    font-weight: 480;
 }

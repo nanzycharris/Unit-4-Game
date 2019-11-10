@@ -1,7 +1,7 @@
 # Unit-4-Game
 Homework 4 - jQuery 
 
-Crystals Collector Game coded using jQuery
+Crystal Collector Game coded using jQuery
 
 Instructions: 
 You are given a random number at the start of the game. There are four crystals below. By clicking on a crystal, you add a specific amount of points to your total score.
